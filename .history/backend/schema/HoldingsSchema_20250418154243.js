@@ -1,0 +1,7 @@
+const {Schema} = require("mongoose");
+
+const HoldingsSchema = new Schema({
+
+});
+
+export.default = {HoldingsSchema}

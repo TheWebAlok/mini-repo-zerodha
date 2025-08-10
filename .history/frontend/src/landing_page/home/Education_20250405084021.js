@@ -1,0 +1,25 @@
+import React from "react";
+
+function Education() {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-6"></div>
+
+        <div className="col-6">
+          <h1 className="">Free and open market education</h1>
+          <p className="mb-3">
+            We pioneered the concept of discount broking and price transparency
+            in India. Flat fees and no hidden charges.
+          </p>
+          <a className="mx-5" style={{ textDecoration: "none" }}>
+            See pricing
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Education;
